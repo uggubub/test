@@ -1,0 +1,36 @@
+{
+  "name": "my-crypto-chat",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^16.0.0",
+    "next-pwa": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "typescript": "latest",
+    "tailwindcss": "latest",
+    "postcss": "latest",
+    "autoprefixer": "latest",
+    "class-variance-authority": "latest",
+    "lucide-react": "latest",
+    "tailwind-merge": "latest",
+    "@supabase/supabase-js": "latest",
+    "@solana/web3.js": "latest",
+    "@solana/wallet-adapter-react": "latest",
+    "@solana/wallet-adapter-wallets": "latest",
+    "@solana/wallet-adapter-react-ui": "latest"
+  }
+  ,
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest"
+  }
+}
